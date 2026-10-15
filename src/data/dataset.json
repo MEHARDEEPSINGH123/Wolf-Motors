@@ -1,0 +1,3680 @@
+{
+  "metadata": {
+    "dataset_name": "WOLF MOTORS Luxury Mobility Demo Dataset",
+    "version": "1.0.0",
+    "generated_date": "2026-10-14",
+    "locale": "en-SG",
+    "currency": "SGD",
+    "timezone": "Asia/Singapore",
+    "market": "Singapore",
+    "purpose": "Prototype frontend, booking, CRM, analytics, fleet, inventory, and ecommerce",
+    "disclaimer": "All records, rates, bookings, customers, metrics, products, and statuses are fictional illustrative demo data, not live business information."
+  },
+  "brand": {
+    "name": "WOLF MOTORS",
+    "tagline": "BUILT TO DOMINATE",
+    "descriptor": "Luxury Automotive & Mobility",
+    "market": "Singapore",
+    "palette": {
+      "forest_green": "#24483F",
+      "obsidian_black": "#08090B",
+      "graphite": "#17191D",
+      "wolf_white": "#F5F5F2",
+      "metallic_silver": "#B8BEC7",
+      "crimson_red": "#C62835",
+      "muted_border": "#30343A"
+    },
+    "logo_direction": "Original crisp, symmetrical geometric wolf-head emblem and bold uppercase wordmark. User-provided image is visual direction only; do not trace it or copy another brand's mark.",
+    "demo_disclosure": "All records, rates, bookings, customers, metrics, products, and statuses are fictional illustrative demo data, not live business information."
+  },
+  "vehicle_categories": [
+    {
+      "id": "sedan",
+      "name": "Sedan",
+      "slug": "sedan"
+    },
+    {
+      "id": "suv",
+      "name": "SUV",
+      "slug": "suv"
+    },
+    {
+      "id": "hatchback",
+      "name": "Hatchback",
+      "slug": "hatchback"
+    },
+    {
+      "id": "coupe",
+      "name": "Coupe",
+      "slug": "coupe"
+    },
+    {
+      "id": "convertible",
+      "name": "Convertible",
+      "slug": "convertible"
+    },
+    {
+      "id": "supercar",
+      "name": "Supercar",
+      "slug": "supercar"
+    },
+    {
+      "id": "electric",
+      "name": "Electric",
+      "slug": "electric"
+    },
+    {
+      "id": "luxury_mpv",
+      "name": "Luxury MPV",
+      "slug": "luxury-mpv"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "WOLF-001",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "display_name": "Mercedes-Benz E-Class",
+      "category_id": "sedan",
+      "year": 2025,
+      "daily_rate_sgd": 320,
+      "deposit_sgd": 640,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-01",
+      "status": "Available",
+      "registration": "DEMO-101",
+      "odometer_km": 31143,
+      "features": [
+        "Leather interior",
+        "Panoramic roof",
+        "Premium sound",
+        "Wireless charging",
+        "Adaptive cruise control"
+      ],
+      "image_prompt": "Premium editorial photograph of Mercedes-Benz E-Class, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-002",
+      "make": "BMW",
+      "model": "5 Series",
+      "display_name": "BMW 5 Series",
+      "category_id": "sedan",
+      "year": 2025,
+      "daily_rate_sgd": 340,
+      "deposit_sgd": 680,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "hub_id": "HUB-02",
+      "status": "Available",
+      "registration": "DEMO-102",
+      "odometer_km": 22972,
+      "features": [
+        "Driver assistance",
+        "Ambient lighting",
+        "Panoramic roof",
+        "Adaptive cruise control",
+        "Apple CarPlay"
+      ],
+      "image_prompt": "Premium editorial photograph of BMW 5 Series, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-003",
+      "make": "Audi",
+      "model": "A6",
+      "display_name": "Audi A6",
+      "category_id": "sedan",
+      "year": 2025,
+      "daily_rate_sgd": 310,
+      "deposit_sgd": 620,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-03",
+      "status": "Booked",
+      "registration": "DEMO-103",
+      "odometer_km": 37124,
+      "features": [
+        "Adaptive cruise control",
+        "Wireless charging",
+        "Premium sound",
+        "Leather interior",
+        "360-degree camera"
+      ],
+      "image_prompt": "Premium editorial photograph of Audi A6, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-004",
+      "make": "Mercedes-Benz",
+      "model": "S-Class",
+      "display_name": "Mercedes-Benz S-Class",
+      "category_id": "sedan",
+      "year": 2025,
+      "daily_rate_sgd": 690,
+      "deposit_sgd": 1380,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "hub_id": "HUB-04",
+      "status": "Maintenance",
+      "registration": "DEMO-104",
+      "odometer_km": 28494,
+      "features": [
+        "Apple CarPlay",
+        "Driver assistance",
+        "Premium sound",
+        "Adaptive cruise control",
+        "Leather interior"
+      ],
+      "image_prompt": "Premium editorial photograph of Mercedes-Benz S-Class, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-005",
+      "make": "BMW",
+      "model": "X5",
+      "display_name": "BMW X5",
+      "category_id": "suv",
+      "year": 2025,
+      "daily_rate_sgd": 420,
+      "deposit_sgd": 840,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "hub_id": "HUB-05",
+      "status": "Available",
+      "registration": "DEMO-105",
+      "odometer_km": 9478,
+      "features": [
+        "Driver assistance",
+        "Premium sound",
+        "Wireless charging",
+        "Leather interior",
+        "360-degree camera"
+      ],
+      "image_prompt": "Premium editorial photograph of BMW X5, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-006",
+      "make": "Porsche",
+      "model": "Cayenne",
+      "display_name": "Porsche Cayenne",
+      "category_id": "suv",
+      "year": 2025,
+      "daily_rate_sgd": 560,
+      "deposit_sgd": 1120,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-06",
+      "status": "Available",
+      "registration": "DEMO-106",
+      "odometer_km": 7463,
+      "features": [
+        "Panoramic roof",
+        "360-degree camera",
+        "Leather interior",
+        "Premium sound",
+        "Ambient lighting"
+      ],
+      "image_prompt": "Premium editorial photograph of Porsche Cayenne, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-007",
+      "make": "Range Rover",
+      "model": "Sport",
+      "display_name": "Range Rover Sport",
+      "category_id": "suv",
+      "year": 2025,
+      "daily_rate_sgd": 610,
+      "deposit_sgd": 1220,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "hub_id": "HUB-07",
+      "status": "Available",
+      "registration": "DEMO-107",
+      "odometer_km": 6548,
+      "features": [
+        "Panoramic roof",
+        "360-degree camera",
+        "Ambient lighting",
+        "Apple CarPlay",
+        "Leather interior"
+      ],
+      "image_prompt": "Premium editorial photograph of Range Rover Sport, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-008",
+      "make": "Volvo",
+      "model": "XC90",
+      "display_name": "Volvo XC90",
+      "category_id": "suv",
+      "year": 2025,
+      "daily_rate_sgd": 390,
+      "deposit_sgd": 780,
+      "seats": 7,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "hub_id": "HUB-08",
+      "status": "Booked",
+      "registration": "DEMO-108",
+      "odometer_km": 3630,
+      "features": [
+        "360-degree camera",
+        "Adaptive cruise control",
+        "Driver assistance",
+        "Ambient lighting",
+        "Wireless charging"
+      ],
+      "image_prompt": "Premium editorial photograph of Volvo XC90, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-009",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "display_name": "Volkswagen Golf",
+      "category_id": "hatchback",
+      "year": 2025,
+      "daily_rate_sgd": 150,
+      "deposit_sgd": 300,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-09",
+      "status": "Maintenance",
+      "registration": "DEMO-109",
+      "odometer_km": 33024,
+      "features": [
+        "Apple CarPlay",
+        "Adaptive cruise control",
+        "Premium sound",
+        "360-degree camera",
+        "Ambient lighting"
+      ],
+      "image_prompt": "Premium editorial photograph of Volkswagen Golf, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-010",
+      "make": "Mini",
+      "model": "Cooper S",
+      "display_name": "Mini Cooper S",
+      "category_id": "hatchback",
+      "year": 2025,
+      "daily_rate_sgd": 190,
+      "deposit_sgd": 380,
+      "seats": 4,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-10",
+      "status": "Available",
+      "registration": "DEMO-110",
+      "odometer_km": 39914,
+      "features": [
+        "Adaptive cruise control",
+        "Premium sound",
+        "Wireless charging",
+        "Panoramic roof",
+        "Ambient lighting"
+      ],
+      "image_prompt": "Premium editorial photograph of Mini Cooper S, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-011",
+      "make": "Audi",
+      "model": "RS 3",
+      "display_name": "Audi RS 3",
+      "category_id": "hatchback",
+      "year": 2025,
+      "daily_rate_sgd": 310,
+      "deposit_sgd": 620,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-11",
+      "status": "Available",
+      "registration": "DEMO-111",
+      "odometer_km": 14107,
+      "features": [
+        "Leather interior",
+        "Adaptive cruise control",
+        "Ambient lighting",
+        "Premium sound",
+        "Panoramic roof"
+      ],
+      "image_prompt": "Premium editorial photograph of Audi RS 3, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-012",
+      "make": "BMW",
+      "model": "M2",
+      "display_name": "BMW M2",
+      "category_id": "coupe",
+      "year": 2025,
+      "daily_rate_sgd": 480,
+      "deposit_sgd": 960,
+      "seats": 4,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-12",
+      "status": "Available",
+      "registration": "DEMO-112",
+      "odometer_km": 1944,
+      "features": [
+        "Driver assistance",
+        "Premium sound",
+        "Panoramic roof",
+        "360-degree camera",
+        "Wireless charging"
+      ],
+      "image_prompt": "Premium editorial photograph of BMW M2, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-013",
+      "make": "Porsche",
+      "model": "911 Carrera",
+      "display_name": "Porsche 911 Carrera",
+      "category_id": "coupe",
+      "year": 2025,
+      "daily_rate_sgd": 780,
+      "deposit_sgd": 1560,
+      "seats": 2,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-01",
+      "status": "Booked",
+      "registration": "DEMO-113",
+      "odometer_km": 13787,
+      "features": [
+        "Wireless charging",
+        "Premium sound",
+        "360-degree camera",
+        "Ambient lighting",
+        "Adaptive cruise control"
+      ],
+      "image_prompt": "Premium editorial photograph of Porsche 911 Carrera, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-014",
+      "make": "Mercedes-Benz",
+      "model": "CLE Coupe",
+      "display_name": "Mercedes-Benz CLE Coupe",
+      "category_id": "coupe",
+      "year": 2025,
+      "daily_rate_sgd": 360,
+      "deposit_sgd": 720,
+      "seats": 4,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-02",
+      "status": "Maintenance",
+      "registration": "DEMO-114",
+      "odometer_km": 46730,
+      "features": [
+        "Apple CarPlay",
+        "Driver assistance",
+        "Panoramic roof",
+        "Leather interior",
+        "Adaptive cruise control"
+      ],
+      "image_prompt": "Premium editorial photograph of Mercedes-Benz CLE Coupe, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-015",
+      "make": "BMW",
+      "model": "4 Series Convertible",
+      "display_name": "BMW 4 Series Convertible",
+      "category_id": "convertible",
+      "year": 2025,
+      "daily_rate_sgd": 390,
+      "deposit_sgd": 780,
+      "seats": 4,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-03",
+      "status": "Available",
+      "registration": "DEMO-115",
+      "odometer_km": 4350,
+      "features": [
+        "Panoramic roof",
+        "Apple CarPlay",
+        "Leather interior",
+        "Ambient lighting",
+        "Driver assistance"
+      ],
+      "image_prompt": "Premium editorial photograph of BMW 4 Series Convertible, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-016",
+      "make": "Porsche",
+      "model": "911 Carrera Cabriolet",
+      "display_name": "Porsche 911 Carrera Cabriolet",
+      "category_id": "convertible",
+      "year": 2025,
+      "daily_rate_sgd": 850,
+      "deposit_sgd": 1700,
+      "seats": 2,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-04",
+      "status": "Available",
+      "registration": "DEMO-116",
+      "odometer_km": 3043,
+      "features": [
+        "Premium sound",
+        "Wireless charging",
+        "Driver assistance",
+        "Ambient lighting",
+        "Panoramic roof"
+      ],
+      "image_prompt": "Premium editorial photograph of Porsche 911 Carrera Cabriolet, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-017",
+      "make": "Ferrari",
+      "model": "Roma Spider",
+      "display_name": "Ferrari Roma Spider",
+      "category_id": "convertible",
+      "year": 2025,
+      "daily_rate_sgd": 2200,
+      "deposit_sgd": 4400,
+      "seats": 2,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-05",
+      "status": "Available",
+      "registration": "DEMO-117",
+      "odometer_km": 33889,
+      "features": [
+        "Adaptive cruise control",
+        "Leather interior",
+        "Wireless charging",
+        "Ambient lighting",
+        "Panoramic roof"
+      ],
+      "image_prompt": "Premium editorial photograph of Ferrari Roma Spider, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-018",
+      "make": "Lamborghini",
+      "model": "Huracán EVO",
+      "display_name": "Lamborghini Huracán EVO",
+      "category_id": "supercar",
+      "year": 2025,
+      "daily_rate_sgd": 3200,
+      "deposit_sgd": 6400,
+      "seats": 2,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "hub_id": "HUB-06",
+      "status": "Booked",
+      "registration": "DEMO-118",
+      "odometer_km": 39483,
+      "features": [
+        "Premium sound",
+        "Leather interior",
+        "Adaptive cruise control",
+        "Panoramic roof",
+        "Apple CarPlay"
+      ],
+      "image_prompt": "Premium editorial photograph of Lamborghini Huracán EVO, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-019",
+      "make": "Ferrari",
+      "model": "296 GTB",
+      "display_name": "Ferrari 296 GTB",
+      "category_id": "supercar",
+      "year": 2025,
+      "daily_rate_sgd": 3600,
+      "deposit_sgd": 7200,
+      "seats": 2,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "hub_id": "HUB-07",
+      "status": "Maintenance",
+      "registration": "DEMO-119",
+      "odometer_km": 30376,
+      "features": [
+        "360-degree camera",
+        "Wireless charging",
+        "Premium sound",
+        "Panoramic roof",
+        "Adaptive cruise control"
+      ],
+      "image_prompt": "Premium editorial photograph of Ferrari 296 GTB, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-020",
+      "make": "McLaren",
+      "model": "Artura",
+      "display_name": "McLaren Artura",
+      "category_id": "supercar",
+      "year": 2025,
+      "daily_rate_sgd": 2900,
+      "deposit_sgd": 5800,
+      "seats": 2,
+      "transmission": "Automatic",
+      "fuel_type": "Hybrid",
+      "hub_id": "HUB-08",
+      "status": "Available",
+      "registration": "DEMO-120",
+      "odometer_km": 25634,
+      "features": [
+        "Leather interior",
+        "Adaptive cruise control",
+        "360-degree camera",
+        "Ambient lighting",
+        "Premium sound"
+      ],
+      "image_prompt": "Premium editorial photograph of McLaren Artura, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-021",
+      "make": "Porsche",
+      "model": "Taycan 4S",
+      "display_name": "Porsche Taycan 4S",
+      "category_id": "electric",
+      "year": 2025,
+      "daily_rate_sgd": 620,
+      "deposit_sgd": 1240,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Electric",
+      "hub_id": "HUB-09",
+      "status": "Available",
+      "registration": "DEMO-121",
+      "odometer_km": 15329,
+      "features": [
+        "Ambient lighting",
+        "Panoramic roof",
+        "Apple CarPlay",
+        "Adaptive cruise control",
+        "Wireless charging"
+      ],
+      "image_prompt": "Premium editorial photograph of Porsche Taycan 4S, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-022",
+      "make": "Tesla",
+      "model": "Model S",
+      "display_name": "Tesla Model S",
+      "category_id": "electric",
+      "year": 2025,
+      "daily_rate_sgd": 390,
+      "deposit_sgd": 780,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Electric",
+      "hub_id": "HUB-10",
+      "status": "Available",
+      "registration": "DEMO-122",
+      "odometer_km": 42055,
+      "features": [
+        "Panoramic roof",
+        "Premium sound",
+        "Driver assistance",
+        "Adaptive cruise control",
+        "Leather interior"
+      ],
+      "image_prompt": "Premium editorial photograph of Tesla Model S, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-023",
+      "make": "Mercedes-Benz",
+      "model": "EQE SUV",
+      "display_name": "Mercedes-Benz EQE SUV",
+      "category_id": "electric",
+      "year": 2025,
+      "daily_rate_sgd": 430,
+      "deposit_sgd": 860,
+      "seats": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Electric",
+      "hub_id": "HUB-11",
+      "status": "Booked",
+      "registration": "DEMO-123",
+      "odometer_km": 25794,
+      "features": [
+        "Driver assistance",
+        "Wireless charging",
+        "360-degree camera",
+        "Apple CarPlay",
+        "Premium sound"
+      ],
+      "image_prompt": "Premium editorial photograph of Mercedes-Benz EQE SUV, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    },
+    {
+      "id": "WOLF-024",
+      "make": "Mercedes-Benz",
+      "model": "V-Class",
+      "display_name": "Mercedes-Benz V-Class",
+      "category_id": "luxury_mpv",
+      "year": 2025,
+      "daily_rate_sgd": 520,
+      "deposit_sgd": 1040,
+      "seats": 7,
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "hub_id": "HUB-12",
+      "status": "Maintenance",
+      "registration": "DEMO-124",
+      "odometer_km": 37895,
+      "features": [
+        "Premium sound",
+        "Wireless charging",
+        "Leather interior",
+        "Driver assistance",
+        "Adaptive cruise control"
+      ],
+      "image_prompt": "Premium editorial photograph of Mercedes-Benz V-Class, three-quarter front view, Singapore architecture, cinematic light, no text overlay",
+      "availability_note": "Demo only; connect live booking availability before launch."
+    }
+  ],
+  "hubs": [
+    {
+      "id": "HUB-01",
+      "name": "Marina Bay",
+      "area": "Marina Bay",
+      "region": "Central",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-02",
+      "name": "Orchard",
+      "area": "Orchard Road",
+      "region": "Central",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-03",
+      "name": "Changi Airport",
+      "area": "Changi Airport",
+      "region": "East",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-04",
+      "name": "Sentosa",
+      "area": "Sentosa",
+      "region": "South",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-05",
+      "name": "Tanjong Pagar",
+      "area": "Tanjong Pagar",
+      "region": "Central",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-06",
+      "name": "Jurong East",
+      "area": "Jurong East",
+      "region": "West",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-07",
+      "name": "Novena",
+      "area": "Novena",
+      "region": "Central",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-08",
+      "name": "Bugis",
+      "area": "Bugis",
+      "region": "Central",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-09",
+      "name": "Holland Village",
+      "area": "Holland Village",
+      "region": "Central",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-10",
+      "name": "Woodlands",
+      "area": "Woodlands",
+      "region": "North",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-11",
+      "name": "Paya Lebar",
+      "area": "Paya Lebar",
+      "region": "East",
+      "status": "Demo location; verify before launch"
+    },
+    {
+      "id": "HUB-12",
+      "name": "River Valley",
+      "area": "River Valley",
+      "region": "Central",
+      "status": "Demo location; verify before launch"
+    }
+  ],
+  "rental_add_ons": [
+    {
+      "id": "ADD-001",
+      "name": "Premium delivery",
+      "price_sgd": 85,
+      "billing": "per booking",
+      "description": "Delivery to eligible address."
+    },
+    {
+      "id": "ADD-002",
+      "name": "Airport meet-and-greet",
+      "price_sgd": 65,
+      "billing": "per booking",
+      "description": "Coordinated airport handover."
+    },
+    {
+      "id": "ADD-003",
+      "name": "Additional driver",
+      "price_sgd": 25,
+      "billing": "per day",
+      "description": "Subject to eligibility."
+    },
+    {
+      "id": "ADD-004",
+      "name": "Child safety seat",
+      "price_sgd": 18,
+      "billing": "per day",
+      "description": "Confirm type and installation."
+    },
+    {
+      "id": "ADD-005",
+      "name": "Premium protection package",
+      "price_sgd": 45,
+      "billing": "per day",
+      "description": "Illustrative; terms require review."
+    },
+    {
+      "id": "ADD-006",
+      "name": "Roadside assistance",
+      "price_sgd": 15,
+      "billing": "per day",
+      "description": "Real coverage must be verified."
+    },
+    {
+      "id": "ADD-007",
+      "name": "Cleaning package",
+      "price_sgd": 40,
+      "billing": "per booking",
+      "description": "Pre-return cleaning."
+    },
+    {
+      "id": "ADD-008",
+      "name": "Chauffeur service",
+      "price_sgd": 180,
+      "billing": "per hour",
+      "description": "Licensing and staffing must be validated."
+    },
+    {
+      "id": "ADD-009",
+      "name": "Flexible return window",
+      "price_sgd": 55,
+      "billing": "per booking",
+      "description": "Subject to availability."
+    },
+    {
+      "id": "ADD-010",
+      "name": "Luxury welcome kit",
+      "price_sgd": 35,
+      "billing": "per booking",
+      "description": "Premium amenity."
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUS-0001",
+      "first_name": "Aiden",
+      "last_name": "Tan",
+      "email": "aiden.1@example.com",
+      "phone": "+65 87726053",
+      "segment": "New",
+      "lifetime_value_sgd": 2450,
+      "consent_marketing": false,
+      "created_at": "2026-01-01"
+    },
+    {
+      "id": "CUS-0002",
+      "first_name": "Amelia",
+      "last_name": "Lee",
+      "email": "amelia.2@example.com",
+      "phone": "+65 87257388",
+      "segment": "Returning",
+      "lifetime_value_sgd": 8200,
+      "consent_marketing": true,
+      "created_at": "2026-02-02"
+    },
+    {
+      "id": "CUS-0003",
+      "first_name": "Ethan",
+      "last_name": "Goh",
+      "email": "ethan.3@example.com",
+      "phone": "+65 87196832",
+      "segment": "VIP",
+      "lifetime_value_sgd": 420,
+      "consent_marketing": true,
+      "created_at": "2026-03-03"
+    },
+    {
+      "id": "CUS-0004",
+      "first_name": "Olivia",
+      "last_name": "Koh",
+      "email": "olivia.4@example.com",
+      "phone": "+65 85870382",
+      "segment": "Corporate",
+      "lifetime_value_sgd": 420,
+      "consent_marketing": true,
+      "created_at": "2026-04-04"
+    },
+    {
+      "id": "CUS-0005",
+      "first_name": "Lucas",
+      "last_name": "Yeo",
+      "email": "lucas.5@example.com",
+      "phone": "+65 85343823",
+      "segment": "Returning",
+      "lifetime_value_sgd": 0,
+      "consent_marketing": false,
+      "created_at": "2026-05-05"
+    },
+    {
+      "id": "CUS-0006",
+      "first_name": "Mia",
+      "last_name": "Tan",
+      "email": "mia.6@example.com",
+      "phone": "+65 81847312",
+      "segment": "New",
+      "lifetime_value_sgd": 8200,
+      "consent_marketing": true,
+      "created_at": "2026-06-06"
+    },
+    {
+      "id": "CUS-0007",
+      "first_name": "Noah",
+      "last_name": "Lee",
+      "email": "noah.7@example.com",
+      "phone": "+65 83898367",
+      "segment": "Returning",
+      "lifetime_value_sgd": 980,
+      "consent_marketing": true,
+      "created_at": "2026-07-07"
+    },
+    {
+      "id": "CUS-0008",
+      "first_name": "Chloe",
+      "last_name": "Goh",
+      "email": "chloe.8@example.com",
+      "phone": "+65 83755062",
+      "segment": "VIP",
+      "lifetime_value_sgd": 0,
+      "consent_marketing": true,
+      "created_at": "2026-08-08"
+    },
+    {
+      "id": "CUS-0009",
+      "first_name": "Liam",
+      "last_name": "Koh",
+      "email": "liam.9@example.com",
+      "phone": "+65 83488385",
+      "segment": "Corporate",
+      "lifetime_value_sgd": 0,
+      "consent_marketing": false,
+      "created_at": "2026-09-09"
+    },
+    {
+      "id": "CUS-0010",
+      "first_name": "Isla",
+      "last_name": "Yeo",
+      "email": "isla.10@example.com",
+      "phone": "+65 81819170",
+      "segment": "Returning",
+      "lifetime_value_sgd": 0,
+      "consent_marketing": true,
+      "created_at": "2026-01-10"
+    },
+    {
+      "id": "CUS-0011",
+      "first_name": "Kai",
+      "last_name": "Tan",
+      "email": "kai.11@example.com",
+      "phone": "+65 88557092",
+      "segment": "New",
+      "lifetime_value_sgd": 420,
+      "consent_marketing": true,
+      "created_at": "2026-02-11"
+    },
+    {
+      "id": "CUS-0012",
+      "first_name": "Sophia",
+      "last_name": "Lee",
+      "email": "sophia.12@example.com",
+      "phone": "+65 87524301",
+      "segment": "Returning",
+      "lifetime_value_sgd": 980,
+      "consent_marketing": true,
+      "created_at": "2026-03-12"
+    },
+    {
+      "id": "CUS-0013",
+      "first_name": "Daniel",
+      "last_name": "Goh",
+      "email": "daniel.13@example.com",
+      "phone": "+65 81248200",
+      "segment": "VIP",
+      "lifetime_value_sgd": 8200,
+      "consent_marketing": false,
+      "created_at": "2026-04-13"
+    },
+    {
+      "id": "CUS-0014",
+      "first_name": "Aria",
+      "last_name": "Koh",
+      "email": "aria.14@example.com",
+      "phone": "+65 86948044",
+      "segment": "Corporate",
+      "lifetime_value_sgd": 980,
+      "consent_marketing": true,
+      "created_at": "2026-05-14"
+    },
+    {
+      "id": "CUS-0015",
+      "first_name": "Ryan",
+      "last_name": "Yeo",
+      "email": "ryan.15@example.com",
+      "phone": "+65 83359623",
+      "segment": "Returning",
+      "lifetime_value_sgd": 1600,
+      "consent_marketing": true,
+      "created_at": "2026-06-15"
+    },
+    {
+      "id": "CUS-0016",
+      "first_name": "Grace",
+      "last_name": "Tan",
+      "email": "grace.16@example.com",
+      "phone": "+65 85659480",
+      "segment": "New",
+      "lifetime_value_sgd": 420,
+      "consent_marketing": true,
+      "created_at": "2026-07-16"
+    },
+    {
+      "id": "CUS-0017",
+      "first_name": "Evan",
+      "last_name": "Lee",
+      "email": "evan.17@example.com",
+      "phone": "+65 82452709",
+      "segment": "Returning",
+      "lifetime_value_sgd": 4800,
+      "consent_marketing": false,
+      "created_at": "2026-08-17"
+    },
+    {
+      "id": "CUS-0018",
+      "first_name": "Zoe",
+      "last_name": "Goh",
+      "email": "zoe.18@example.com",
+      "phone": "+65 85966229",
+      "segment": "VIP",
+      "lifetime_value_sgd": 4800,
+      "consent_marketing": true,
+      "created_at": "2026-09-18"
+    },
+    {
+      "id": "CUS-0019",
+      "first_name": "Nathan",
+      "last_name": "Koh",
+      "email": "nathan.19@example.com",
+      "phone": "+65 82978553",
+      "segment": "Corporate",
+      "lifetime_value_sgd": 0,
+      "consent_marketing": true,
+      "created_at": "2026-01-19"
+    },
+    {
+      "id": "CUS-0020",
+      "first_name": "Ella",
+      "last_name": "Yeo",
+      "email": "ella.20@example.com",
+      "phone": "+65 88045210",
+      "segment": "Returning",
+      "lifetime_value_sgd": 1600,
+      "consent_marketing": true,
+      "created_at": "2026-02-20"
+    },
+    {
+      "id": "CUS-0021",
+      "first_name": "Aaron",
+      "last_name": "Tan",
+      "email": "aaron.21@example.com",
+      "phone": "+65 83391098",
+      "segment": "New",
+      "lifetime_value_sgd": 4800,
+      "consent_marketing": false,
+      "created_at": "2026-03-21"
+    },
+    {
+      "id": "CUS-0022",
+      "first_name": "Jasmine",
+      "last_name": "Lee",
+      "email": "jasmine.22@example.com",
+      "phone": "+65 87425688",
+      "segment": "Returning",
+      "lifetime_value_sgd": 2450,
+      "consent_marketing": true,
+      "created_at": "2026-04-22"
+    },
+    {
+      "id": "CUS-0023",
+      "first_name": "Marcus",
+      "last_name": "Goh",
+      "email": "marcus.23@example.com",
+      "phone": "+65 83836689",
+      "segment": "VIP",
+      "lifetime_value_sgd": 4800,
+      "consent_marketing": true,
+      "created_at": "2026-05-23"
+    },
+    {
+      "id": "CUS-0024",
+      "first_name": "Ava",
+      "last_name": "Koh",
+      "email": "ava.24@example.com",
+      "phone": "+65 85599561",
+      "segment": "Corporate",
+      "lifetime_value_sgd": 8200,
+      "consent_marketing": true,
+      "created_at": "2026-06-24"
+    },
+    {
+      "id": "CUS-0025",
+      "first_name": "Julian",
+      "last_name": "Yeo",
+      "email": "julian.25@example.com",
+      "phone": "+65 89295256",
+      "segment": "Returning",
+      "lifetime_value_sgd": 980,
+      "consent_marketing": false,
+      "created_at": "2026-07-25"
+    },
+    {
+      "id": "CUS-0026",
+      "first_name": "Hannah",
+      "last_name": "Tan",
+      "email": "hannah.26@example.com",
+      "phone": "+65 82664743",
+      "segment": "New",
+      "lifetime_value_sgd": 0,
+      "consent_marketing": true,
+      "created_at": "2026-08-26"
+    },
+    {
+      "id": "CUS-0027",
+      "first_name": "Isaac",
+      "last_name": "Lee",
+      "email": "isaac.27@example.com",
+      "phone": "+65 85644794",
+      "segment": "Returning",
+      "lifetime_value_sgd": 2450,
+      "consent_marketing": true,
+      "created_at": "2026-09-27"
+    },
+    {
+      "id": "CUS-0028",
+      "first_name": "Leah",
+      "last_name": "Goh",
+      "email": "leah.28@example.com",
+      "phone": "+65 83153257",
+      "segment": "VIP",
+      "lifetime_value_sgd": 420,
+      "consent_marketing": true,
+      "created_at": "2026-01-01"
+    },
+    {
+      "id": "CUS-0029",
+      "first_name": "Caleb",
+      "last_name": "Koh",
+      "email": "caleb.29@example.com",
+      "phone": "+65 82413854",
+      "segment": "Corporate",
+      "lifetime_value_sgd": 420,
+      "consent_marketing": false,
+      "created_at": "2026-02-02"
+    },
+    {
+      "id": "CUS-0030",
+      "first_name": "Maya",
+      "last_name": "Yeo",
+      "email": "maya.30@example.com",
+      "phone": "+65 84731384",
+      "segment": "Returning",
+      "lifetime_value_sgd": 8200,
+      "consent_marketing": true,
+      "created_at": "2026-03-03"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK-2026001",
+      "customer_id": "CUS-0001",
+      "vehicle_id": "WOLF-001",
+      "pickup_hub_id": "HUB-01",
+      "return_hub_id": "HUB-04",
+      "pickup_date": "2026-10-01",
+      "return_date": "2026-10-02",
+      "rental_days": 1,
+      "daily_rate_sgd": 320,
+      "add_on_ids": [
+        "ADD-001"
+      ],
+      "subtotal_sgd": 320,
+      "deposit_sgd": 640,
+      "status": "Completed",
+      "payment_status": "Paid",
+      "source": "Website",
+      "created_at": "2026-09-01",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026002",
+      "customer_id": "CUS-0006",
+      "vehicle_id": "WOLF-008",
+      "pickup_hub_id": "HUB-08",
+      "return_hub_id": "HUB-05",
+      "pickup_date": "2026-10-04",
+      "return_date": "2026-10-06",
+      "rental_days": 2,
+      "daily_rate_sgd": 390,
+      "add_on_ids": [],
+      "subtotal_sgd": 780,
+      "deposit_sgd": 780,
+      "status": "Confirmed",
+      "payment_status": "Paid",
+      "source": "Referral",
+      "created_at": "2026-09-02",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026003",
+      "customer_id": "CUS-0011",
+      "vehicle_id": "WOLF-015",
+      "pickup_hub_id": "HUB-03",
+      "return_hub_id": "HUB-06",
+      "pickup_date": "2026-10-07",
+      "return_date": "2026-10-10",
+      "rental_days": 3,
+      "daily_rate_sgd": 390,
+      "add_on_ids": [],
+      "subtotal_sgd": 1170,
+      "deposit_sgd": 780,
+      "status": "Pending Payment",
+      "payment_status": "Unpaid",
+      "source": "Campaign",
+      "created_at": "2026-09-03",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026004",
+      "customer_id": "CUS-0016",
+      "vehicle_id": "WOLF-022",
+      "pickup_hub_id": "HUB-10",
+      "return_hub_id": "HUB-07",
+      "pickup_date": "2026-10-10",
+      "return_date": "2026-10-11",
+      "rental_days": 1,
+      "daily_rate_sgd": 390,
+      "add_on_ids": [
+        "ADD-004"
+      ],
+      "subtotal_sgd": 390,
+      "deposit_sgd": 780,
+      "status": "Cancelled",
+      "payment_status": "Refunded",
+      "source": "Corporate",
+      "created_at": "2026-09-04",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026005",
+      "customer_id": "CUS-0021",
+      "vehicle_id": "WOLF-005",
+      "pickup_hub_id": "HUB-05",
+      "return_hub_id": "HUB-08",
+      "pickup_date": "2026-10-13",
+      "return_date": "2026-10-15",
+      "rental_days": 2,
+      "daily_rate_sgd": 420,
+      "add_on_ids": [],
+      "subtotal_sgd": 840,
+      "deposit_sgd": 840,
+      "status": "In Progress",
+      "payment_status": "Paid",
+      "source": "Website",
+      "created_at": "2026-09-05",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026006",
+      "customer_id": "CUS-0026",
+      "vehicle_id": "WOLF-012",
+      "pickup_hub_id": "HUB-12",
+      "return_hub_id": "HUB-09",
+      "pickup_date": "2026-10-16",
+      "return_date": "2026-10-19",
+      "rental_days": 3,
+      "daily_rate_sgd": 480,
+      "add_on_ids": [],
+      "subtotal_sgd": 1440,
+      "deposit_sgd": 960,
+      "status": "Completed",
+      "payment_status": "Paid",
+      "source": "Referral",
+      "created_at": "2026-09-06",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026007",
+      "customer_id": "CUS-0001",
+      "vehicle_id": "WOLF-019",
+      "pickup_hub_id": "HUB-07",
+      "return_hub_id": "HUB-10",
+      "pickup_date": "2026-10-19",
+      "return_date": "2026-10-20",
+      "rental_days": 1,
+      "daily_rate_sgd": 3600,
+      "add_on_ids": [
+        "ADD-007"
+      ],
+      "subtotal_sgd": 3600,
+      "deposit_sgd": 7200,
+      "status": "Confirmed",
+      "payment_status": "Paid",
+      "source": "Campaign",
+      "created_at": "2026-09-07",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026008",
+      "customer_id": "CUS-0006",
+      "vehicle_id": "WOLF-002",
+      "pickup_hub_id": "HUB-02",
+      "return_hub_id": "HUB-11",
+      "pickup_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "rental_days": 2,
+      "daily_rate_sgd": 340,
+      "add_on_ids": [],
+      "subtotal_sgd": 680,
+      "deposit_sgd": 680,
+      "status": "Pending Payment",
+      "payment_status": "Unpaid",
+      "source": "Corporate",
+      "created_at": "2026-09-08",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026009",
+      "customer_id": "CUS-0011",
+      "vehicle_id": "WOLF-009",
+      "pickup_hub_id": "HUB-09",
+      "return_hub_id": "HUB-12",
+      "pickup_date": "2026-10-25",
+      "return_date": "2026-10-28",
+      "rental_days": 3,
+      "daily_rate_sgd": 150,
+      "add_on_ids": [],
+      "subtotal_sgd": 450,
+      "deposit_sgd": 300,
+      "status": "Cancelled",
+      "payment_status": "Refunded",
+      "source": "Website",
+      "created_at": "2026-09-09",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026010",
+      "customer_id": "CUS-0016",
+      "vehicle_id": "WOLF-016",
+      "pickup_hub_id": "HUB-04",
+      "return_hub_id": "HUB-01",
+      "pickup_date": "2026-10-01",
+      "return_date": "2026-10-02",
+      "rental_days": 1,
+      "daily_rate_sgd": 850,
+      "add_on_ids": [
+        "ADD-010"
+      ],
+      "subtotal_sgd": 850,
+      "deposit_sgd": 1700,
+      "status": "In Progress",
+      "payment_status": "Paid",
+      "source": "Referral",
+      "created_at": "2026-09-10",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026011",
+      "customer_id": "CUS-0021",
+      "vehicle_id": "WOLF-023",
+      "pickup_hub_id": "HUB-11",
+      "return_hub_id": "HUB-02",
+      "pickup_date": "2026-10-04",
+      "return_date": "2026-10-06",
+      "rental_days": 2,
+      "daily_rate_sgd": 430,
+      "add_on_ids": [],
+      "subtotal_sgd": 860,
+      "deposit_sgd": 860,
+      "status": "Completed",
+      "payment_status": "Paid",
+      "source": "Campaign",
+      "created_at": "2026-09-11",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026012",
+      "customer_id": "CUS-0026",
+      "vehicle_id": "WOLF-006",
+      "pickup_hub_id": "HUB-06",
+      "return_hub_id": "HUB-03",
+      "pickup_date": "2026-10-07",
+      "return_date": "2026-10-10",
+      "rental_days": 3,
+      "daily_rate_sgd": 560,
+      "add_on_ids": [],
+      "subtotal_sgd": 1680,
+      "deposit_sgd": 1120,
+      "status": "Confirmed",
+      "payment_status": "Paid",
+      "source": "Corporate",
+      "created_at": "2026-09-12",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026013",
+      "customer_id": "CUS-0001",
+      "vehicle_id": "WOLF-013",
+      "pickup_hub_id": "HUB-01",
+      "return_hub_id": "HUB-04",
+      "pickup_date": "2026-10-10",
+      "return_date": "2026-10-11",
+      "rental_days": 1,
+      "daily_rate_sgd": 780,
+      "add_on_ids": [
+        "ADD-003"
+      ],
+      "subtotal_sgd": 780,
+      "deposit_sgd": 1560,
+      "status": "Pending Payment",
+      "payment_status": "Unpaid",
+      "source": "Website",
+      "created_at": "2026-09-13",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026014",
+      "customer_id": "CUS-0006",
+      "vehicle_id": "WOLF-020",
+      "pickup_hub_id": "HUB-08",
+      "return_hub_id": "HUB-05",
+      "pickup_date": "2026-10-13",
+      "return_date": "2026-10-15",
+      "rental_days": 2,
+      "daily_rate_sgd": 2900,
+      "add_on_ids": [],
+      "subtotal_sgd": 5800,
+      "deposit_sgd": 5800,
+      "status": "Cancelled",
+      "payment_status": "Refunded",
+      "source": "Referral",
+      "created_at": "2026-09-14",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026015",
+      "customer_id": "CUS-0011",
+      "vehicle_id": "WOLF-003",
+      "pickup_hub_id": "HUB-03",
+      "return_hub_id": "HUB-06",
+      "pickup_date": "2026-10-16",
+      "return_date": "2026-10-19",
+      "rental_days": 3,
+      "daily_rate_sgd": 310,
+      "add_on_ids": [],
+      "subtotal_sgd": 930,
+      "deposit_sgd": 620,
+      "status": "In Progress",
+      "payment_status": "Paid",
+      "source": "Campaign",
+      "created_at": "2026-09-15",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026016",
+      "customer_id": "CUS-0016",
+      "vehicle_id": "WOLF-010",
+      "pickup_hub_id": "HUB-10",
+      "return_hub_id": "HUB-07",
+      "pickup_date": "2026-10-19",
+      "return_date": "2026-10-20",
+      "rental_days": 1,
+      "daily_rate_sgd": 190,
+      "add_on_ids": [
+        "ADD-006"
+      ],
+      "subtotal_sgd": 190,
+      "deposit_sgd": 380,
+      "status": "Completed",
+      "payment_status": "Paid",
+      "source": "Corporate",
+      "created_at": "2026-09-16",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026017",
+      "customer_id": "CUS-0021",
+      "vehicle_id": "WOLF-017",
+      "pickup_hub_id": "HUB-05",
+      "return_hub_id": "HUB-08",
+      "pickup_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "rental_days": 2,
+      "daily_rate_sgd": 2200,
+      "add_on_ids": [],
+      "subtotal_sgd": 4400,
+      "deposit_sgd": 4400,
+      "status": "Confirmed",
+      "payment_status": "Paid",
+      "source": "Website",
+      "created_at": "2026-09-17",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026018",
+      "customer_id": "CUS-0026",
+      "vehicle_id": "WOLF-024",
+      "pickup_hub_id": "HUB-12",
+      "return_hub_id": "HUB-09",
+      "pickup_date": "2026-10-25",
+      "return_date": "2026-10-28",
+      "rental_days": 3,
+      "daily_rate_sgd": 520,
+      "add_on_ids": [],
+      "subtotal_sgd": 1560,
+      "deposit_sgd": 1040,
+      "status": "Pending Payment",
+      "payment_status": "Unpaid",
+      "source": "Referral",
+      "created_at": "2026-09-18",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026019",
+      "customer_id": "CUS-0001",
+      "vehicle_id": "WOLF-007",
+      "pickup_hub_id": "HUB-07",
+      "return_hub_id": "HUB-10",
+      "pickup_date": "2026-10-01",
+      "return_date": "2026-10-02",
+      "rental_days": 1,
+      "daily_rate_sgd": 610,
+      "add_on_ids": [
+        "ADD-009"
+      ],
+      "subtotal_sgd": 610,
+      "deposit_sgd": 1220,
+      "status": "Cancelled",
+      "payment_status": "Refunded",
+      "source": "Campaign",
+      "created_at": "2026-09-19",
+      "demo_record": true
+    },
+    {
+      "id": "BK-2026020",
+      "customer_id": "CUS-0006",
+      "vehicle_id": "WOLF-014",
+      "pickup_hub_id": "HUB-02",
+      "return_hub_id": "HUB-11",
+      "pickup_date": "2026-10-04",
+      "return_date": "2026-10-06",
+      "rental_days": 2,
+      "daily_rate_sgd": 360,
+      "add_on_ids": [],
+      "subtotal_sgd": 720,
+      "deposit_sgd": 720,
+      "status": "In Progress",
+      "payment_status": "Paid",
+      "source": "Corporate",
+      "created_at": "2026-09-20",
+      "demo_record": true
+    }
+  ],
+  "crm_leads": [
+    {
+      "id": "LEAD-0001",
+      "customer_id": "CUS-0001",
+      "name": "Lucas Tan",
+      "email": "lead1@example.com",
+      "source": "Organic Search",
+      "interest_category": "sedan",
+      "estimated_budget_sgd": 300,
+      "stage": "New",
+      "owner_staff_id": "STF-001",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-01",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0002",
+      "customer_id": "CUS-0002",
+      "name": "Mia Wong",
+      "email": "lead2@example.com",
+      "source": "Instagram",
+      "interest_category": "suv",
+      "estimated_budget_sgd": 600,
+      "stage": "Contacted",
+      "owner_staff_id": "STF-002",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-02",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0003",
+      "customer_id": "CUS-0003",
+      "name": "Noah Ng",
+      "email": "lead3@example.com",
+      "source": "Referral",
+      "interest_category": "hatchback",
+      "estimated_budget_sgd": 600,
+      "stage": "Qualified",
+      "owner_staff_id": "STF-003",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-03",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0004",
+      "customer_id": "CUS-0004",
+      "name": "Chloe Goh",
+      "email": "lead4@example.com",
+      "source": "Paid Search",
+      "interest_category": "coupe",
+      "estimated_budget_sgd": 2500,
+      "stage": "Viewing",
+      "owner_staff_id": "STF-004",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-04",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0005",
+      "customer_id": "CUS-0005",
+      "name": "Liam Teo",
+      "email": "lead5@example.com",
+      "source": "Corporate Outreach",
+      "interest_category": "convertible",
+      "estimated_budget_sgd": 2500,
+      "stage": "Proposal Sent",
+      "owner_staff_id": "STF-005",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-05",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0006",
+      "customer_id": "CUS-0006",
+      "name": "Isla Low",
+      "email": "lead6@example.com",
+      "source": "Direct",
+      "interest_category": "supercar",
+      "estimated_budget_sgd": 5000,
+      "stage": "Won",
+      "owner_staff_id": "STF-006",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-06",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0007",
+      "customer_id": "CUS-0007",
+      "name": "Kai Yeo",
+      "email": "lead7@example.com",
+      "source": "Organic Search",
+      "interest_category": "electric",
+      "estimated_budget_sgd": 5000,
+      "stage": "New",
+      "owner_staff_id": "STF-001",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-07",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0008",
+      "customer_id": "CUS-0008",
+      "name": "Sophia Toh",
+      "email": "lead8@example.com",
+      "source": "Instagram",
+      "interest_category": "luxury_mpv",
+      "estimated_budget_sgd": 5000,
+      "stage": "Contacted",
+      "owner_staff_id": "STF-002",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-08",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0009",
+      "customer_id": "CUS-0009",
+      "name": "Daniel Lim",
+      "email": "lead9@example.com",
+      "source": "Referral",
+      "interest_category": "sedan",
+      "estimated_budget_sgd": 2500,
+      "stage": "Qualified",
+      "owner_staff_id": "STF-003",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-09",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0010",
+      "customer_id": "CUS-0010",
+      "name": "Aria Lee",
+      "email": "lead10@example.com",
+      "source": "Paid Search",
+      "interest_category": "suv",
+      "estimated_budget_sgd": 300,
+      "stage": "Viewing",
+      "owner_staff_id": "STF-004",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-10",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0011",
+      "customer_id": "CUS-0011",
+      "name": "Ryan Chua",
+      "email": "lead11@example.com",
+      "source": "Corporate Outreach",
+      "interest_category": "hatchback",
+      "estimated_budget_sgd": 600,
+      "stage": "Proposal Sent",
+      "owner_staff_id": "STF-005",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-11",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0012",
+      "customer_id": "CUS-0012",
+      "name": "Grace Ong",
+      "email": "lead12@example.com",
+      "source": "Direct",
+      "interest_category": "coupe",
+      "estimated_budget_sgd": 5000,
+      "stage": "Won",
+      "owner_staff_id": "STF-006",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-12",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0013",
+      "customer_id": "CUS-0013",
+      "name": "Evan Koh",
+      "email": "lead13@example.com",
+      "source": "Organic Search",
+      "interest_category": "convertible",
+      "estimated_budget_sgd": 2500,
+      "stage": "New",
+      "owner_staff_id": "STF-001",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-13",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0014",
+      "customer_id": "CUS-0014",
+      "name": "Zoe Ho",
+      "email": "lead14@example.com",
+      "source": "Instagram",
+      "interest_category": "supercar",
+      "estimated_budget_sgd": 5000,
+      "stage": "Contacted",
+      "owner_staff_id": "STF-002",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-14",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0015",
+      "customer_id": "CUS-0015",
+      "name": "Nathan Sim",
+      "email": "lead15@example.com",
+      "source": "Referral",
+      "interest_category": "electric",
+      "estimated_budget_sgd": 1200,
+      "stage": "Qualified",
+      "owner_staff_id": "STF-003",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-01",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0016",
+      "customer_id": "CUS-0016",
+      "name": "Ella Tan",
+      "email": "lead16@example.com",
+      "source": "Paid Search",
+      "interest_category": "luxury_mpv",
+      "estimated_budget_sgd": 5000,
+      "stage": "Viewing",
+      "owner_staff_id": "STF-004",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-02",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0017",
+      "customer_id": "CUS-0017",
+      "name": "Aaron Wong",
+      "email": "lead17@example.com",
+      "source": "Corporate Outreach",
+      "interest_category": "sedan",
+      "estimated_budget_sgd": 300,
+      "stage": "Proposal Sent",
+      "owner_staff_id": "STF-005",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-03",
+      "demo_record": true
+    },
+    {
+      "id": "LEAD-0018",
+      "customer_id": "CUS-0018",
+      "name": "Jasmine Ng",
+      "email": "lead18@example.com",
+      "source": "Direct",
+      "interest_category": "suv",
+      "estimated_budget_sgd": 300,
+      "stage": "Won",
+      "owner_staff_id": "STF-006",
+      "next_action": "Follow up on vehicle and dates",
+      "created_at": "2026-10-04",
+      "demo_record": true
+    }
+  ],
+  "marketing_campaigns": [
+    {
+      "id": "CAM-001",
+      "name": "Midnight Collection",
+      "channel": "Paid Search",
+      "status": "Active",
+      "budget_sgd": 5000,
+      "spend_sgd": 3120,
+      "leads": 46,
+      "bookings_attributed": 8,
+      "goal": "Premium rental enquiries"
+    },
+    {
+      "id": "CAM-002",
+      "name": "Executive Arrival",
+      "channel": "LinkedIn",
+      "status": "Active",
+      "budget_sgd": 3500,
+      "spend_sgd": 1780,
+      "leads": 24,
+      "bookings_attributed": 6,
+      "goal": "Corporate leads"
+    },
+    {
+      "id": "CAM-003",
+      "name": "Weekend Icons",
+      "channel": "Instagram",
+      "status": "Active",
+      "budget_sgd": 2400,
+      "spend_sgd": 1980,
+      "leads": 68,
+      "bookings_attributed": 9,
+      "goal": "Supercar bookings"
+    },
+    {
+      "id": "CAM-004",
+      "name": "Electric City Drive",
+      "channel": "Organic Social",
+      "status": "Draft",
+      "budget_sgd": 1200,
+      "spend_sgd": 0,
+      "leads": 0,
+      "bookings_attributed": 0,
+      "goal": "Introduce electric fleet"
+    },
+    {
+      "id": "CAM-005",
+      "name": "Airport Prestige",
+      "channel": "Search",
+      "status": "Paused",
+      "budget_sgd": 3000,
+      "spend_sgd": 1210,
+      "leads": 17,
+      "bookings_attributed": 3,
+      "goal": "Airport enquiries"
+    },
+    {
+      "id": "CAM-006",
+      "name": "Wolf Owners Circle",
+      "channel": "Email",
+      "status": "Active",
+      "budget_sgd": 900,
+      "spend_sgd": 460,
+      "leads": 32,
+      "bookings_attributed": 7,
+      "goal": "Repeat bookings"
+    },
+    {
+      "id": "CAM-007",
+      "name": "Grand Touring Stories",
+      "channel": "Content",
+      "status": "Completed",
+      "budget_sgd": 1800,
+      "spend_sgd": 1800,
+      "leads": 28,
+      "bookings_attributed": 4,
+      "goal": "Engagement"
+    },
+    {
+      "id": "CAM-008",
+      "name": "Fleet Partner Network",
+      "channel": "Partnership",
+      "status": "Draft",
+      "budget_sgd": 2500,
+      "spend_sgd": 0,
+      "leads": 0,
+      "bookings_attributed": 0,
+      "goal": "Corporate referrals"
+    }
+  ],
+  "inventory_parts": [
+    {
+      "id": "PART-0001",
+      "name": "Brake pad set",
+      "sku": "WFM-00001",
+      "category": "Maintenance",
+      "quantity_on_hand": 39,
+      "reorder_level": 8,
+      "unit_cost_sgd": 180,
+      "supplier_id": "SUP-001",
+      "location": "Central Warehouse",
+      "stock_status": "Reorder"
+    },
+    {
+      "id": "PART-0002",
+      "name": "Cabin air filter",
+      "sku": "WFM-00002",
+      "category": "Tyres",
+      "quantity_on_hand": 36,
+      "reorder_level": 6,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-002",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0003",
+      "name": "Engine oil kit",
+      "sku": "WFM-00003",
+      "category": "Electrical",
+      "quantity_on_hand": 43,
+      "reorder_level": 8,
+      "unit_cost_sgd": 60,
+      "supplier_id": "SUP-003",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0004",
+      "name": "Wiper blade pair",
+      "sku": "WFM-00004",
+      "category": "EV",
+      "quantity_on_hand": 6,
+      "reorder_level": 9,
+      "unit_cost_sgd": 35,
+      "supplier_id": "SUP-004",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0005",
+      "name": "Tyre 20-inch",
+      "sku": "WFM-00005",
+      "category": "Detailing",
+      "quantity_on_hand": 10,
+      "reorder_level": 4,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-005",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0006",
+      "name": "Tyre 21-inch",
+      "sku": "WFM-00006",
+      "category": "Safety",
+      "quantity_on_hand": 33,
+      "reorder_level": 7,
+      "unit_cost_sgd": 8,
+      "supplier_id": "SUP-006",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0007",
+      "name": "12V battery",
+      "sku": "WFM-00007",
+      "category": "Maintenance",
+      "quantity_on_hand": 33,
+      "reorder_level": 9,
+      "unit_cost_sgd": 8,
+      "supplier_id": "SUP-001",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0008",
+      "name": "EV charging cable",
+      "sku": "WFM-00008",
+      "category": "Tyres",
+      "quantity_on_hand": 45,
+      "reorder_level": 8,
+      "unit_cost_sgd": 8,
+      "supplier_id": "SUP-002",
+      "location": "Central Warehouse",
+      "stock_status": "Reorder"
+    },
+    {
+      "id": "PART-0009",
+      "name": "Coolant kit",
+      "sku": "WFM-00009",
+      "category": "Electrical",
+      "quantity_on_hand": 25,
+      "reorder_level": 5,
+      "unit_cost_sgd": 320,
+      "supplier_id": "SUP-003",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0010",
+      "name": "Oil filter",
+      "sku": "WFM-00010",
+      "category": "EV",
+      "quantity_on_hand": 16,
+      "reorder_level": 6,
+      "unit_cost_sgd": 320,
+      "supplier_id": "SUP-004",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0011",
+      "name": "Spark plug set",
+      "sku": "WFM-00011",
+      "category": "Detailing",
+      "quantity_on_hand": 17,
+      "reorder_level": 4,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-005",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0012",
+      "name": "Wheel sensor",
+      "sku": "WFM-00012",
+      "category": "Safety",
+      "quantity_on_hand": 41,
+      "reorder_level": 4,
+      "unit_cost_sgd": 180,
+      "supplier_id": "SUP-006",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0013",
+      "name": "Headlamp assembly",
+      "sku": "WFM-00013",
+      "category": "Maintenance",
+      "quantity_on_hand": 28,
+      "reorder_level": 8,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-001",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0014",
+      "name": "Interior trim clip",
+      "sku": "WFM-00014",
+      "category": "Tyres",
+      "quantity_on_hand": 7,
+      "reorder_level": 5,
+      "unit_cost_sgd": 8,
+      "supplier_id": "SUP-002",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0015",
+      "name": "Pollen filter",
+      "sku": "WFM-00015",
+      "category": "Electrical",
+      "quantity_on_hand": 40,
+      "reorder_level": 10,
+      "unit_cost_sgd": 22,
+      "supplier_id": "SUP-003",
+      "location": "Central Warehouse",
+      "stock_status": "Reorder"
+    },
+    {
+      "id": "PART-0016",
+      "name": "Washer fluid",
+      "sku": "WFM-00016",
+      "category": "EV",
+      "quantity_on_hand": 7,
+      "reorder_level": 4,
+      "unit_cost_sgd": 8,
+      "supplier_id": "SUP-004",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0017",
+      "name": "Brake disc",
+      "sku": "WFM-00017",
+      "category": "Detailing",
+      "quantity_on_hand": 24,
+      "reorder_level": 8,
+      "unit_cost_sgd": 320,
+      "supplier_id": "SUP-005",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0018",
+      "name": "Air intake filter",
+      "sku": "WFM-00018",
+      "category": "Safety",
+      "quantity_on_hand": 37,
+      "reorder_level": 8,
+      "unit_cost_sgd": 320,
+      "supplier_id": "SUP-006",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0019",
+      "name": "Key fob battery",
+      "sku": "WFM-00019",
+      "category": "Maintenance",
+      "quantity_on_hand": 3,
+      "reorder_level": 9,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-001",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0020",
+      "name": "Portable charger",
+      "sku": "WFM-00020",
+      "category": "Tyres",
+      "quantity_on_hand": 23,
+      "reorder_level": 4,
+      "unit_cost_sgd": 95,
+      "supplier_id": "SUP-002",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0021",
+      "name": "Detailing kit",
+      "sku": "WFM-00021",
+      "category": "Electrical",
+      "quantity_on_hand": 2,
+      "reorder_level": 7,
+      "unit_cost_sgd": 320,
+      "supplier_id": "SUP-003",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0022",
+      "name": "Seat belt assembly",
+      "sku": "WFM-00022",
+      "category": "EV",
+      "quantity_on_hand": 39,
+      "reorder_level": 5,
+      "unit_cost_sgd": 180,
+      "supplier_id": "SUP-004",
+      "location": "Central Warehouse",
+      "stock_status": "Reorder"
+    },
+    {
+      "id": "PART-0023",
+      "name": "Mirror housing",
+      "sku": "WFM-00023",
+      "category": "Detailing",
+      "quantity_on_hand": 32,
+      "reorder_level": 10,
+      "unit_cost_sgd": 22,
+      "supplier_id": "SUP-005",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0024",
+      "name": "AC compressor belt",
+      "sku": "WFM-00024",
+      "category": "Safety",
+      "quantity_on_hand": 8,
+      "reorder_level": 6,
+      "unit_cost_sgd": 35,
+      "supplier_id": "SUP-006",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0025",
+      "name": "Suspension link",
+      "sku": "WFM-00025",
+      "category": "Maintenance",
+      "quantity_on_hand": 30,
+      "reorder_level": 10,
+      "unit_cost_sgd": 22,
+      "supplier_id": "SUP-001",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0026",
+      "name": "EV coolant",
+      "sku": "WFM-00026",
+      "category": "Tyres",
+      "quantity_on_hand": 14,
+      "reorder_level": 5,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-002",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0027",
+      "name": "Charging port cover",
+      "sku": "WFM-00027",
+      "category": "Electrical",
+      "quantity_on_hand": 9,
+      "reorder_level": 4,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-003",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0028",
+      "name": "Wheel bolt set",
+      "sku": "WFM-00028",
+      "category": "EV",
+      "quantity_on_hand": 6,
+      "reorder_level": 9,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-004",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0029",
+      "name": "Fuse kit",
+      "sku": "WFM-00029",
+      "category": "Detailing",
+      "quantity_on_hand": 25,
+      "reorder_level": 4,
+      "unit_cost_sgd": 8,
+      "supplier_id": "SUP-005",
+      "location": "Central Warehouse",
+      "stock_status": "Reorder"
+    },
+    {
+      "id": "PART-0030",
+      "name": "First aid kit",
+      "sku": "WFM-00030",
+      "category": "Safety",
+      "quantity_on_hand": 31,
+      "reorder_level": 9,
+      "unit_cost_sgd": 35,
+      "supplier_id": "SUP-006",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0031",
+      "name": "Microfiber cloth set",
+      "sku": "WFM-00031",
+      "category": "Maintenance",
+      "quantity_on_hand": 25,
+      "reorder_level": 10,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-001",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0032",
+      "name": "Ceramic coating kit",
+      "sku": "WFM-00032",
+      "category": "Tyres",
+      "quantity_on_hand": 17,
+      "reorder_level": 4,
+      "unit_cost_sgd": 60,
+      "supplier_id": "SUP-002",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0033",
+      "name": "Leather care kit",
+      "sku": "WFM-00033",
+      "category": "Electrical",
+      "quantity_on_hand": 35,
+      "reorder_level": 9,
+      "unit_cost_sgd": 35,
+      "supplier_id": "SUP-003",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0034",
+      "name": "Roadside triangle",
+      "sku": "WFM-00034",
+      "category": "EV",
+      "quantity_on_hand": 2,
+      "reorder_level": 7,
+      "unit_cost_sgd": 60,
+      "supplier_id": "SUP-004",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    },
+    {
+      "id": "PART-0035",
+      "name": "Tyre repair kit",
+      "sku": "WFM-00035",
+      "category": "Detailing",
+      "quantity_on_hand": 41,
+      "reorder_level": 4,
+      "unit_cost_sgd": 15,
+      "supplier_id": "SUP-005",
+      "location": "Central Warehouse",
+      "stock_status": "In Stock"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-001",
+      "name": "Meridian Auto Supply",
+      "contact_email": "procurement1@example.com",
+      "category": "General Parts",
+      "lead_time_days": 4,
+      "status": "Active"
+    },
+    {
+      "id": "SUP-002",
+      "name": "Northstar Tyre & Wheel",
+      "contact_email": "procurement2@example.com",
+      "category": "Tyres",
+      "lead_time_days": 3,
+      "status": "Active"
+    },
+    {
+      "id": "SUP-003",
+      "name": "Voltline Mobility Supply",
+      "contact_email": "procurement3@example.com",
+      "category": "EV Components",
+      "lead_time_days": 7,
+      "status": "Active"
+    },
+    {
+      "id": "SUP-004",
+      "name": "Precision Service Partners",
+      "contact_email": "procurement4@example.com",
+      "category": "Maintenance",
+      "lead_time_days": 5,
+      "status": "Active"
+    },
+    {
+      "id": "SUP-005",
+      "name": "Obsidian Detailing Co.",
+      "contact_email": "procurement5@example.com",
+      "category": "Detailing",
+      "lead_time_days": 2,
+      "status": "Active"
+    },
+    {
+      "id": "SUP-006",
+      "name": "Urban Fleet Logistics",
+      "contact_email": "procurement6@example.com",
+      "category": "Logistics",
+      "lead_time_days": 6,
+      "status": "Review"
+    }
+  ],
+  "maintenance_work_orders": [
+    {
+      "id": "WO-202601",
+      "vehicle_id": "WOLF-001",
+      "type": "Scheduled Service",
+      "priority": "Normal",
+      "status": "Open",
+      "scheduled_date": "2026-10-01",
+      "assigned_staff_id": "STF-001",
+      "estimated_cost_sgd": 1200,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202602",
+      "vehicle_id": "WOLF-004",
+      "type": "Inspection",
+      "priority": "Normal",
+      "status": "In Progress",
+      "scheduled_date": "2026-10-02",
+      "assigned_staff_id": "STF-002",
+      "estimated_cost_sgd": 650,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202603",
+      "vehicle_id": "WOLF-007",
+      "type": "Tyre Replacement",
+      "priority": "High",
+      "status": "Scheduled",
+      "scheduled_date": "2026-10-03",
+      "assigned_staff_id": "STF-003",
+      "estimated_cost_sgd": 120,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202604",
+      "vehicle_id": "WOLF-010",
+      "type": "Cleaning & Detail",
+      "priority": "Low",
+      "status": "Completed",
+      "scheduled_date": "2026-10-04",
+      "assigned_staff_id": "STF-004",
+      "estimated_cost_sgd": 380,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202605",
+      "vehicle_id": "WOLF-013",
+      "type": "Repair",
+      "priority": "Normal",
+      "status": "Open",
+      "scheduled_date": "2026-10-05",
+      "assigned_staff_id": "STF-005",
+      "estimated_cost_sgd": 650,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202606",
+      "vehicle_id": "WOLF-016",
+      "type": "EV System Check",
+      "priority": "Normal",
+      "status": "In Progress",
+      "scheduled_date": "2026-10-06",
+      "assigned_staff_id": "STF-006",
+      "estimated_cost_sgd": 380,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202607",
+      "vehicle_id": "WOLF-019",
+      "type": "Scheduled Service",
+      "priority": "High",
+      "status": "Scheduled",
+      "scheduled_date": "2026-10-07",
+      "assigned_staff_id": "STF-001",
+      "estimated_cost_sgd": 1200,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202608",
+      "vehicle_id": "WOLF-022",
+      "type": "Inspection",
+      "priority": "Low",
+      "status": "Completed",
+      "scheduled_date": "2026-10-08",
+      "assigned_staff_id": "STF-002",
+      "estimated_cost_sgd": 250,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202609",
+      "vehicle_id": "WOLF-001",
+      "type": "Tyre Replacement",
+      "priority": "Normal",
+      "status": "Open",
+      "scheduled_date": "2026-10-09",
+      "assigned_staff_id": "STF-003",
+      "estimated_cost_sgd": 120,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202610",
+      "vehicle_id": "WOLF-004",
+      "type": "Cleaning & Detail",
+      "priority": "Normal",
+      "status": "In Progress",
+      "scheduled_date": "2026-10-10",
+      "assigned_staff_id": "STF-004",
+      "estimated_cost_sgd": 380,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202611",
+      "vehicle_id": "WOLF-007",
+      "type": "Repair",
+      "priority": "High",
+      "status": "Scheduled",
+      "scheduled_date": "2026-10-11",
+      "assigned_staff_id": "STF-005",
+      "estimated_cost_sgd": 250,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202612",
+      "vehicle_id": "WOLF-010",
+      "type": "EV System Check",
+      "priority": "Low",
+      "status": "Completed",
+      "scheduled_date": "2026-10-12",
+      "assigned_staff_id": "STF-006",
+      "estimated_cost_sgd": 380,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202613",
+      "vehicle_id": "WOLF-013",
+      "type": "Scheduled Service",
+      "priority": "Normal",
+      "status": "Open",
+      "scheduled_date": "2026-10-13",
+      "assigned_staff_id": "STF-001",
+      "estimated_cost_sgd": 120,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202614",
+      "vehicle_id": "WOLF-016",
+      "type": "Inspection",
+      "priority": "Normal",
+      "status": "In Progress",
+      "scheduled_date": "2026-10-14",
+      "assigned_staff_id": "STF-002",
+      "estimated_cost_sgd": 250,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202615",
+      "vehicle_id": "WOLF-019",
+      "type": "Tyre Replacement",
+      "priority": "High",
+      "status": "Scheduled",
+      "scheduled_date": "2026-10-15",
+      "assigned_staff_id": "STF-003",
+      "estimated_cost_sgd": 380,
+      "notes": "Illustrative work order; verify inspection details in production."
+    },
+    {
+      "id": "WO-202616",
+      "vehicle_id": "WOLF-022",
+      "type": "Cleaning & Detail",
+      "priority": "Low",
+      "status": "Completed",
+      "scheduled_date": "2026-10-16",
+      "assigned_staff_id": "STF-004",
+      "estimated_cost_sgd": 650,
+      "notes": "Illustrative work order; verify inspection details in production."
+    }
+  ],
+  "ecommerce_products": [
+    {
+      "id": "PRD-0001",
+      "name": "WOLF Heritage Cap",
+      "category": "Apparel",
+      "price_sgd": 48,
+      "stock": 4,
+      "status": "Draft",
+      "description": "Illustrative WOLF MOTORS wolf heritage cap product.",
+      "image_prompt": "Luxury studio product photograph of WOLF Heritage Cap, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0002",
+      "name": "Performance Driving Gloves",
+      "category": "Accessories",
+      "price_sgd": 95,
+      "stock": 42,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS performance driving gloves product.",
+      "image_prompt": "Luxury studio product photograph of Performance Driving Gloves, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0003",
+      "name": "Premium Key Sleeve",
+      "category": "Accessories",
+      "price_sgd": 38,
+      "stock": 16,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS premium key sleeve product.",
+      "image_prompt": "Luxury studio product photograph of Premium Key Sleeve, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0004",
+      "name": "Travel Weekender",
+      "category": "Lifestyle",
+      "price_sgd": 240,
+      "stock": 7,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS travel weekender product.",
+      "image_prompt": "Luxury studio product photograph of Travel Weekender, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0005",
+      "name": "Carbon Fibre Phone Mount",
+      "category": "Accessories",
+      "price_sgd": 65,
+      "stock": 44,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS carbon fibre phone mount product.",
+      "image_prompt": "Luxury studio product photograph of Carbon Fibre Phone Mount, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0006",
+      "name": "Leather Card Holder",
+      "category": "Lifestyle",
+      "price_sgd": 85,
+      "stock": 60,
+      "status": "Draft",
+      "description": "Illustrative WOLF MOTORS leather card holder product.",
+      "image_prompt": "Luxury studio product photograph of Leather Card Holder, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0007",
+      "name": "WOLF Logo Tee",
+      "category": "Apparel",
+      "price_sgd": 55,
+      "stock": 35,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS wolf logo tee product.",
+      "image_prompt": "Luxury studio product photograph of WOLF Logo Tee, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0008",
+      "name": "Premium Car Fragrance",
+      "category": "Car Care",
+      "price_sgd": 32,
+      "stock": 57,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS premium car fragrance product.",
+      "image_prompt": "Luxury studio product photograph of Premium Car Fragrance, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0009",
+      "name": "Microfibre Care Set",
+      "category": "Car Care",
+      "price_sgd": 42,
+      "stock": 45,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS microfibre care set product.",
+      "image_prompt": "Luxury studio product photograph of Microfibre Care Set, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0010",
+      "name": "Ceramic Detail Spray",
+      "category": "Car Care",
+      "price_sgd": 29,
+      "stock": 66,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS ceramic detail spray product.",
+      "image_prompt": "Luxury studio product photograph of Ceramic Detail Spray, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0011",
+      "name": "Driving Journal",
+      "category": "Lifestyle",
+      "price_sgd": 25,
+      "stock": 76,
+      "status": "Draft",
+      "description": "Illustrative WOLF MOTORS driving journal product.",
+      "image_prompt": "Luxury studio product photograph of Driving Journal, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0012",
+      "name": "Metal Wolf Emblem",
+      "category": "Collectibles",
+      "price_sgd": 75,
+      "stock": 48,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS metal wolf emblem product.",
+      "image_prompt": "Luxury studio product photograph of Metal Wolf Emblem, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0013",
+      "name": "Insulated Travel Bottle",
+      "category": "Lifestyle",
+      "price_sgd": 45,
+      "stock": 55,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS insulated travel bottle product.",
+      "image_prompt": "Luxury studio product photograph of Insulated Travel Bottle, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0014",
+      "name": "Leather Luggage Tag",
+      "category": "Lifestyle",
+      "price_sgd": 35,
+      "stock": 59,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS leather luggage tag product.",
+      "image_prompt": "Luxury studio product photograph of Leather Luggage Tag, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0015",
+      "name": "Performance Umbrella",
+      "category": "Lifestyle",
+      "price_sgd": 58,
+      "stock": 30,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS performance umbrella product.",
+      "image_prompt": "Luxury studio product photograph of Performance Umbrella, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0016",
+      "name": "Model Supercar Display",
+      "category": "Collectibles",
+      "price_sgd": 110,
+      "stock": 14,
+      "status": "Draft",
+      "description": "Illustrative WOLF MOTORS model supercar display product.",
+      "image_prompt": "Luxury studio product photograph of Model Supercar Display, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0017",
+      "name": "Wireless Car Charger",
+      "category": "Accessories",
+      "price_sgd": 79,
+      "stock": 39,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS wireless car charger product.",
+      "image_prompt": "Luxury studio product photograph of Wireless Car Charger, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0018",
+      "name": "Travel Organizer",
+      "category": "Lifestyle",
+      "price_sgd": 62,
+      "stock": 42,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS travel organizer product.",
+      "image_prompt": "Luxury studio product photograph of Travel Organizer, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0019",
+      "name": "Vehicle Care Kit",
+      "category": "Car Care",
+      "price_sgd": 88,
+      "stock": 63,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS vehicle care kit product.",
+      "image_prompt": "Luxury studio product photograph of Vehicle Care Kit, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0020",
+      "name": "Premium Sunglasses",
+      "category": "Lifestyle",
+      "price_sgd": 145,
+      "stock": 63,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS premium sunglasses product.",
+      "image_prompt": "Luxury studio product photograph of Premium Sunglasses, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0021",
+      "name": "WOLF Motorsport Hoodie",
+      "category": "Apparel",
+      "price_sgd": 110,
+      "stock": 76,
+      "status": "Draft",
+      "description": "Illustrative WOLF MOTORS wolf motorsport hoodie product.",
+      "image_prompt": "Luxury studio product photograph of WOLF Motorsport Hoodie, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0022",
+      "name": "Tyre Pressure Gauge",
+      "category": "Accessories",
+      "price_sgd": 24,
+      "stock": 62,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS tyre pressure gauge product.",
+      "image_prompt": "Luxury studio product photograph of Tyre Pressure Gauge, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0023",
+      "name": "Emergency Road Kit",
+      "category": "Safety",
+      "price_sgd": 68,
+      "stock": 60,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS emergency road kit product.",
+      "image_prompt": "Luxury studio product photograph of Emergency Road Kit, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0024",
+      "name": "Dashboard Cleaning Brush",
+      "category": "Car Care",
+      "price_sgd": 18,
+      "stock": 53,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS dashboard cleaning brush product.",
+      "image_prompt": "Luxury studio product photograph of Dashboard Cleaning Brush, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0025",
+      "name": "Luggage Strap Set",
+      "category": "Lifestyle",
+      "price_sgd": 31,
+      "stock": 27,
+      "status": "Published",
+      "description": "Illustrative WOLF MOTORS luggage strap set product.",
+      "image_prompt": "Luxury studio product photograph of Luggage Strap Set, graphite background, premium lighting, no text"
+    },
+    {
+      "id": "PRD-0026",
+      "name": "Premium Gift Box",
+      "category": "Gifts",
+      "price_sgd": 125,
+      "stock": 46,
+      "status": "Draft",
+      "description": "Illustrative WOLF MOTORS premium gift box product.",
+      "image_prompt": "Luxury studio product photograph of Premium Gift Box, graphite background, premium lighting, no text"
+    }
+  ],
+  "ecommerce_orders": [
+    {
+      "id": "EC-2026001",
+      "customer_id": "CUS-0001",
+      "product_ids": [
+        "PRD-0001",
+        "PRD-0005"
+      ],
+      "status": "Delivered",
+      "subtotal_sgd": 113,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-01",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026002",
+      "customer_id": "CUS-0003",
+      "product_ids": [
+        "PRD-0002",
+        "PRD-0006"
+      ],
+      "status": "Processing",
+      "subtotal_sgd": 180,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-02",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026003",
+      "customer_id": "CUS-0005",
+      "product_ids": [
+        "PRD-0003",
+        "PRD-0007"
+      ],
+      "status": "Shipped",
+      "subtotal_sgd": 93,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-03",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026004",
+      "customer_id": "CUS-0007",
+      "product_ids": [
+        "PRD-0004",
+        "PRD-0008"
+      ],
+      "status": "Cancelled",
+      "subtotal_sgd": 272,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-04",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026005",
+      "customer_id": "CUS-0009",
+      "product_ids": [
+        "PRD-0005",
+        "PRD-0009"
+      ],
+      "status": "Pending",
+      "subtotal_sgd": 107,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-05",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026006",
+      "customer_id": "CUS-0011",
+      "product_ids": [
+        "PRD-0006",
+        "PRD-0010"
+      ],
+      "status": "Delivered",
+      "subtotal_sgd": 114,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-06",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026007",
+      "customer_id": "CUS-0013",
+      "product_ids": [
+        "PRD-0007",
+        "PRD-0011"
+      ],
+      "status": "Processing",
+      "subtotal_sgd": 80,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-07",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026008",
+      "customer_id": "CUS-0015",
+      "product_ids": [
+        "PRD-0008",
+        "PRD-0012"
+      ],
+      "status": "Shipped",
+      "subtotal_sgd": 107,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-08",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026009",
+      "customer_id": "CUS-0017",
+      "product_ids": [
+        "PRD-0009",
+        "PRD-0013"
+      ],
+      "status": "Cancelled",
+      "subtotal_sgd": 87,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-09",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026010",
+      "customer_id": "CUS-0019",
+      "product_ids": [
+        "PRD-0010",
+        "PRD-0014"
+      ],
+      "status": "Pending",
+      "subtotal_sgd": 64,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-10",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026011",
+      "customer_id": "CUS-0021",
+      "product_ids": [
+        "PRD-0011",
+        "PRD-0015"
+      ],
+      "status": "Delivered",
+      "subtotal_sgd": 83,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-11",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026012",
+      "customer_id": "CUS-0023",
+      "product_ids": [
+        "PRD-0012",
+        "PRD-0016"
+      ],
+      "status": "Processing",
+      "subtotal_sgd": 185,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-12",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026013",
+      "customer_id": "CUS-0025",
+      "product_ids": [
+        "PRD-0013",
+        "PRD-0017"
+      ],
+      "status": "Shipped",
+      "subtotal_sgd": 124,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-13",
+      "demo_record": true
+    },
+    {
+      "id": "EC-2026014",
+      "customer_id": "CUS-0027",
+      "product_ids": [
+        "PRD-0014",
+        "PRD-0018"
+      ],
+      "status": "Cancelled",
+      "subtotal_sgd": 97,
+      "shipping_sgd": 8,
+      "created_at": "2026-10-14",
+      "demo_record": true
+    }
+  ],
+  "staff_roles": [
+    {
+      "id": "STF-001",
+      "name": "Operations Lead",
+      "role": "Operations Manager",
+      "permissions": [
+        "bookings.read",
+        "bookings.update",
+        "fleet.read",
+        "maintenance.manage"
+      ]
+    },
+    {
+      "id": "STF-002",
+      "name": "CRM Specialist",
+      "role": "CRM Manager",
+      "permissions": [
+        "customers.read",
+        "leads.manage",
+        "campaigns.read"
+      ]
+    },
+    {
+      "id": "STF-003",
+      "name": "Fleet Coordinator",
+      "role": "Fleet Manager",
+      "permissions": [
+        "fleet.read",
+        "fleet.update",
+        "maintenance.manage",
+        "inventory.read"
+      ]
+    },
+    {
+      "id": "STF-004",
+      "name": "Finance Analyst",
+      "role": "Finance Analyst",
+      "permissions": [
+        "analytics.read",
+        "transactions.read",
+        "reports.export"
+      ]
+    },
+    {
+      "id": "STF-005",
+      "name": "Store Manager",
+      "role": "Ecommerce Manager",
+      "permissions": [
+        "products.manage",
+        "orders.manage",
+        "inventory.read"
+      ]
+    },
+    {
+      "id": "STF-006",
+      "name": "System Administrator",
+      "role": "Administrator",
+      "permissions": [
+        "*"
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN-0001",
+      "booking_id": "BK-2026001",
+      "type": "Rental Payment",
+      "amount_sgd": 320,
+      "status": "Paid",
+      "date": "2026-09-01",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0002",
+      "booking_id": "BK-2026002",
+      "type": "Rental Payment",
+      "amount_sgd": 780,
+      "status": "Paid",
+      "date": "2026-09-02",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0003",
+      "booking_id": "BK-2026003",
+      "type": "Booking Adjustment",
+      "amount_sgd": 1170,
+      "status": "Unpaid",
+      "date": "2026-09-03",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0004",
+      "booking_id": "BK-2026004",
+      "type": "Booking Adjustment",
+      "amount_sgd": 390,
+      "status": "Refunded",
+      "date": "2026-09-04",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0005",
+      "booking_id": "BK-2026005",
+      "type": "Rental Payment",
+      "amount_sgd": 840,
+      "status": "Paid",
+      "date": "2026-09-05",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0006",
+      "booking_id": "BK-2026006",
+      "type": "Rental Payment",
+      "amount_sgd": 1440,
+      "status": "Paid",
+      "date": "2026-09-06",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0007",
+      "booking_id": "BK-2026007",
+      "type": "Rental Payment",
+      "amount_sgd": 3600,
+      "status": "Paid",
+      "date": "2026-09-07",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0008",
+      "booking_id": "BK-2026008",
+      "type": "Booking Adjustment",
+      "amount_sgd": 680,
+      "status": "Unpaid",
+      "date": "2026-09-08",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0009",
+      "booking_id": "BK-2026009",
+      "type": "Booking Adjustment",
+      "amount_sgd": 450,
+      "status": "Refunded",
+      "date": "2026-09-09",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0010",
+      "booking_id": "BK-2026010",
+      "type": "Rental Payment",
+      "amount_sgd": 850,
+      "status": "Paid",
+      "date": "2026-09-10",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0011",
+      "booking_id": "BK-2026011",
+      "type": "Rental Payment",
+      "amount_sgd": 860,
+      "status": "Paid",
+      "date": "2026-09-11",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0012",
+      "booking_id": "BK-2026012",
+      "type": "Rental Payment",
+      "amount_sgd": 1680,
+      "status": "Paid",
+      "date": "2026-09-12",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0013",
+      "booking_id": "BK-2026013",
+      "type": "Booking Adjustment",
+      "amount_sgd": 780,
+      "status": "Unpaid",
+      "date": "2026-09-13",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0014",
+      "booking_id": "BK-2026014",
+      "type": "Booking Adjustment",
+      "amount_sgd": 5800,
+      "status": "Refunded",
+      "date": "2026-09-14",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0015",
+      "booking_id": "BK-2026015",
+      "type": "Rental Payment",
+      "amount_sgd": 930,
+      "status": "Paid",
+      "date": "2026-09-15",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0016",
+      "booking_id": "BK-2026016",
+      "type": "Rental Payment",
+      "amount_sgd": 190,
+      "status": "Paid",
+      "date": "2026-09-16",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0017",
+      "booking_id": "BK-2026017",
+      "type": "Rental Payment",
+      "amount_sgd": 4400,
+      "status": "Paid",
+      "date": "2026-09-17",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0018",
+      "booking_id": "BK-2026018",
+      "type": "Booking Adjustment",
+      "amount_sgd": 1560,
+      "status": "Unpaid",
+      "date": "2026-09-18",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0019",
+      "booking_id": "BK-2026019",
+      "type": "Booking Adjustment",
+      "amount_sgd": 610,
+      "status": "Refunded",
+      "date": "2026-09-19",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    },
+    {
+      "id": "TXN-0020",
+      "booking_id": "BK-2026020",
+      "type": "Rental Payment",
+      "amount_sgd": 720,
+      "status": "Paid",
+      "date": "2026-09-20",
+      "provider": "DEMO_GATEWAY",
+      "demo_record": true
+    }
+  ],
+  "daily_analytics_metrics": [
+    {
+      "date": "2026-09-15",
+      "revenue_sgd": 9389,
+      "bookings": 3,
+      "active_rentals": 10,
+      "fleet_utilization_pct": 47,
+      "website_sessions": 749,
+      "conversion_rate_pct": 2.27,
+      "average_booking_value_sgd": 407,
+      "lead_count": 20
+    },
+    {
+      "date": "2026-09-16",
+      "revenue_sgd": 6258,
+      "bookings": 14,
+      "active_rentals": 10,
+      "fleet_utilization_pct": 84,
+      "website_sessions": 681,
+      "conversion_rate_pct": 4.59,
+      "average_booking_value_sgd": 467,
+      "lead_count": 29
+    },
+    {
+      "date": "2026-09-17",
+      "revenue_sgd": 10124,
+      "bookings": 12,
+      "active_rentals": 14,
+      "fleet_utilization_pct": 90,
+      "website_sessions": 1772,
+      "conversion_rate_pct": 3.81,
+      "average_booking_value_sgd": 596,
+      "lead_count": 42
+    },
+    {
+      "date": "2026-09-18",
+      "revenue_sgd": 8294,
+      "bookings": 4,
+      "active_rentals": 5,
+      "fleet_utilization_pct": 84,
+      "website_sessions": 1531,
+      "conversion_rate_pct": 2.66,
+      "average_booking_value_sgd": 612,
+      "lead_count": 28
+    },
+    {
+      "date": "2026-09-19",
+      "revenue_sgd": 11223,
+      "bookings": 11,
+      "active_rentals": 6,
+      "fleet_utilization_pct": 71,
+      "website_sessions": 406,
+      "conversion_rate_pct": 2.15,
+      "average_booking_value_sgd": 926,
+      "lead_count": 21
+    },
+    {
+      "date": "2026-09-20",
+      "revenue_sgd": 3970,
+      "bookings": 6,
+      "active_rentals": 5,
+      "fleet_utilization_pct": 62,
+      "website_sessions": 486,
+      "conversion_rate_pct": 1.44,
+      "average_booking_value_sgd": 716,
+      "lead_count": 18
+    },
+    {
+      "date": "2026-09-21",
+      "revenue_sgd": 14164,
+      "bookings": 4,
+      "active_rentals": 13,
+      "fleet_utilization_pct": 67,
+      "website_sessions": 1729,
+      "conversion_rate_pct": 4.21,
+      "average_booking_value_sgd": 778,
+      "lead_count": 40
+    },
+    {
+      "date": "2026-09-22",
+      "revenue_sgd": 5009,
+      "bookings": 11,
+      "active_rentals": 16,
+      "fleet_utilization_pct": 64,
+      "website_sessions": 1135,
+      "conversion_rate_pct": 4.6,
+      "average_booking_value_sgd": 586,
+      "lead_count": 28
+    },
+    {
+      "date": "2026-09-23",
+      "revenue_sgd": 9108,
+      "bookings": 12,
+      "active_rentals": 7,
+      "fleet_utilization_pct": 81,
+      "website_sessions": 764,
+      "conversion_rate_pct": 3.21,
+      "average_booking_value_sgd": 389,
+      "lead_count": 27
+    },
+    {
+      "date": "2026-09-24",
+      "revenue_sgd": 14010,
+      "bookings": 3,
+      "active_rentals": 9,
+      "fleet_utilization_pct": 72,
+      "website_sessions": 1470,
+      "conversion_rate_pct": 4.3,
+      "average_booking_value_sgd": 1073,
+      "lead_count": 35
+    },
+    {
+      "date": "2026-09-25",
+      "revenue_sgd": 4335,
+      "bookings": 7,
+      "active_rentals": 9,
+      "fleet_utilization_pct": 51,
+      "website_sessions": 1458,
+      "conversion_rate_pct": 2.77,
+      "average_booking_value_sgd": 1076,
+      "lead_count": 22
+    },
+    {
+      "date": "2026-09-26",
+      "revenue_sgd": 5734,
+      "bookings": 8,
+      "active_rentals": 7,
+      "fleet_utilization_pct": 89,
+      "website_sessions": 1789,
+      "conversion_rate_pct": 2.39,
+      "average_booking_value_sgd": 995,
+      "lead_count": 11
+    },
+    {
+      "date": "2026-09-27",
+      "revenue_sgd": 11736,
+      "bookings": 7,
+      "active_rentals": 10,
+      "fleet_utilization_pct": 43,
+      "website_sessions": 1584,
+      "conversion_rate_pct": 1.79,
+      "average_booking_value_sgd": 1177,
+      "lead_count": 14
+    },
+    {
+      "date": "2026-09-28",
+      "revenue_sgd": 10229,
+      "bookings": 5,
+      "active_rentals": 10,
+      "fleet_utilization_pct": 55,
+      "website_sessions": 1512,
+      "conversion_rate_pct": 1.6,
+      "average_booking_value_sgd": 812,
+      "lead_count": 21
+    },
+    {
+      "date": "2026-09-29",
+      "revenue_sgd": 11243,
+      "bookings": 6,
+      "active_rentals": 18,
+      "fleet_utilization_pct": 85,
+      "website_sessions": 1564,
+      "conversion_rate_pct": 2.67,
+      "average_booking_value_sgd": 1246,
+      "lead_count": 11
+    },
+    {
+      "date": "2026-09-30",
+      "revenue_sgd": 14525,
+      "bookings": 8,
+      "active_rentals": 12,
+      "fleet_utilization_pct": 65,
+      "website_sessions": 524,
+      "conversion_rate_pct": 2.48,
+      "average_booking_value_sgd": 1197,
+      "lead_count": 33
+    },
+    {
+      "date": "2026-10-01",
+      "revenue_sgd": 10395,
+      "bookings": 9,
+      "active_rentals": 15,
+      "fleet_utilization_pct": 88,
+      "website_sessions": 790,
+      "conversion_rate_pct": 3.16,
+      "average_booking_value_sgd": 550,
+      "lead_count": 13
+    },
+    {
+      "date": "2026-10-02",
+      "revenue_sgd": 8610,
+      "bookings": 7,
+      "active_rentals": 8,
+      "fleet_utilization_pct": 91,
+      "website_sessions": 1361,
+      "conversion_rate_pct": 4.69,
+      "average_booking_value_sgd": 570,
+      "lead_count": 41
+    },
+    {
+      "date": "2026-10-03",
+      "revenue_sgd": 2997,
+      "bookings": 13,
+      "active_rentals": 13,
+      "fleet_utilization_pct": 63,
+      "website_sessions": 1772,
+      "conversion_rate_pct": 1.92,
+      "average_booking_value_sgd": 557,
+      "lead_count": 9
+    },
+    {
+      "date": "2026-10-04",
+      "revenue_sgd": 3725,
+      "bookings": 14,
+      "active_rentals": 18,
+      "fleet_utilization_pct": 79,
+      "website_sessions": 1590,
+      "conversion_rate_pct": 4.69,
+      "average_booking_value_sgd": 1053,
+      "lead_count": 29
+    },
+    {
+      "date": "2026-10-05",
+      "revenue_sgd": 7445,
+      "bookings": 14,
+      "active_rentals": 7,
+      "fleet_utilization_pct": 63,
+      "website_sessions": 1009,
+      "conversion_rate_pct": 2.56,
+      "average_booking_value_sgd": 458,
+      "lead_count": 33
+    },
+    {
+      "date": "2026-10-06",
+      "revenue_sgd": 6820,
+      "bookings": 10,
+      "active_rentals": 12,
+      "fleet_utilization_pct": 86,
+      "website_sessions": 485,
+      "conversion_rate_pct": 2.26,
+      "average_booking_value_sgd": 1239,
+      "lead_count": 17
+    },
+    {
+      "date": "2026-10-07",
+      "revenue_sgd": 12211,
+      "bookings": 14,
+      "active_rentals": 8,
+      "fleet_utilization_pct": 82,
+      "website_sessions": 1766,
+      "conversion_rate_pct": 4.04,
+      "average_booking_value_sgd": 974,
+      "lead_count": 32
+    },
+    {
+      "date": "2026-10-08",
+      "revenue_sgd": 11021,
+      "bookings": 5,
+      "active_rentals": 18,
+      "fleet_utilization_pct": 66,
+      "website_sessions": 467,
+      "conversion_rate_pct": 4.65,
+      "average_booking_value_sgd": 786,
+      "lead_count": 16
+    },
+    {
+      "date": "2026-10-09",
+      "revenue_sgd": 7478,
+      "bookings": 9,
+      "active_rentals": 12,
+      "fleet_utilization_pct": 89,
+      "website_sessions": 770,
+      "conversion_rate_pct": 4.19,
+      "average_booking_value_sgd": 1061,
+      "lead_count": 14
+    },
+    {
+      "date": "2026-10-10",
+      "revenue_sgd": 11194,
+      "bookings": 10,
+      "active_rentals": 13,
+      "fleet_utilization_pct": 58,
+      "website_sessions": 919,
+      "conversion_rate_pct": 2.48,
+      "average_booking_value_sgd": 1170,
+      "lead_count": 30
+    },
+    {
+      "date": "2026-10-11",
+      "revenue_sgd": 11596,
+      "bookings": 3,
+      "active_rentals": 8,
+      "fleet_utilization_pct": 89,
+      "website_sessions": 520,
+      "conversion_rate_pct": 3.49,
+      "average_booking_value_sgd": 854,
+      "lead_count": 27
+    },
+    {
+      "date": "2026-10-12",
+      "revenue_sgd": 4491,
+      "bookings": 6,
+      "active_rentals": 18,
+      "fleet_utilization_pct": 42,
+      "website_sessions": 805,
+      "conversion_rate_pct": 2.82,
+      "average_booking_value_sgd": 506,
+      "lead_count": 24
+    },
+    {
+      "date": "2026-10-13",
+      "revenue_sgd": 7886,
+      "bookings": 7,
+      "active_rentals": 8,
+      "fleet_utilization_pct": 42,
+      "website_sessions": 764,
+      "conversion_rate_pct": 3.57,
+      "average_booking_value_sgd": 804,
+      "lead_count": 25
+    },
+    {
+      "date": "2026-10-14",
+      "revenue_sgd": 8863,
+      "bookings": 13,
+      "active_rentals": 10,
+      "fleet_utilization_pct": 62,
+      "website_sessions": 1545,
+      "conversion_rate_pct": 4.49,
+      "average_booking_value_sgd": 946,
+      "lead_count": 9
+    }
+  ],
+  "policies": [
+    {
+      "id": "POL-001",
+      "title": "Driver eligibility",
+      "summary": "Review age, licence tenure, and document requirements with Singapore legal and operations teams.",
+      "status": "Requires review"
+    },
+    {
+      "id": "POL-002",
+      "title": "Deposits and payments",
+      "summary": "Demo deposits are illustrative; publish real terms only after finance/legal approval.",
+      "status": "Requires review"
+    },
+    {
+      "id": "POL-003",
+      "title": "Cancellation and refunds",
+      "summary": "Define cancellation windows, refund timing, no-show handling, and exceptions.",
+      "status": "Requires review"
+    },
+    {
+      "id": "POL-004",
+      "title": "Insurance and protection",
+      "summary": "Ensure wording matches actual policies and approved contracts.",
+      "status": "Requires review"
+    },
+    {
+      "id": "POL-005",
+      "title": "Cross-border travel",
+      "summary": "Verify vehicle, insurance, and jurisdiction rules before offering cross-border journeys.",
+      "status": "Requires review"
+    },
+    {
+      "id": "POL-006",
+      "title": "Privacy and retention",
+      "summary": "Implement reviewed privacy notice, consent, access control, and deletion policies.",
+      "status": "Requires review"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I reserve a vehicle?",
+      "answer": "Choose a vehicle, dates, pickup/return locations, and add-ons, then submit a demo booking request. No real reservation is created."
+    },
+    {
+      "question": "Are prices final?",
+      "answer": "No. Prices are illustrative and require live quote logic, taxes, fees, deposits, and approved terms."
+    },
+    {
+      "question": "Can I rent a supercar?",
+      "answer": "The catalogue includes demo supercars. Eligibility, availability, insurance, and deposits require approved operational policies."
+    },
+    {
+      "question": "Can I buy WOLF merchandise?",
+      "answer": "The store contains demo products and orders; payments and fulfilment are not connected."
+    },
+    {
+      "question": "Can I select delivery?",
+      "answer": "Eligible delivery hubs must be configured and verified before production launch."
+    }
+  ]
+}

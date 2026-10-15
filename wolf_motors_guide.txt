@@ -1,0 +1,58 @@
+WOLF MOTORS — DATASET & IMPLEMENTATION GUIDE
+Version 1.0.0 | 14 October 2026 | Singapore | Currency: SGD
+
+BRAND
+Name: WOLF MOTORS
+Tagline: BUILT TO DOMINATE
+Descriptor: Luxury Automotive & Mobility
+Identity: powerful, aggressive, exclusive, premium, confident.
+Reference direction: geometric, symmetrical wolf-head emblem, uppercase wordmark, forest-green signature accent. Use the user's reference as inspiration only; create an original mark and never trace another logo.
+
+PALETTE
+Forest Green #24483F; Obsidian Black #08090B; Graphite #17191D; Wolf White #F5F5F2; Metallic Silver #B8BEC7; Crimson Red #C62835; Muted Border #30343A.
+Use dark cinematic surfaces, high-quality automotive photography, silver/ivory type, and restrained forest green. Crimson should be used sparingly.
+
+DATASET CONTENTS
+The JSON contains 8 vehicle categories; 24 vehicles; 12 hubs; 10 rental add-ons; 30 fictional customers; 20 bookings; 18 CRM leads; 8 campaigns; 35 inventory parts; 6 suppliers; 16 maintenance work orders; 26 ecommerce products; 14 ecommerce orders; 6 staff roles; 20 transactions; 30 daily metric rows; 6 policy review items; and 5 FAQs.
+
+RELATIONSHIPS
+vehicles.category_id -> vehicle_categories.id
+vehicles.hub_id -> hubs.id
+bookings.customer_id -> customers.id
+bookings.vehicle_id -> vehicles.id
+bookings.pickup_hub_id / return_hub_id -> hubs.id
+bookings.add_on_ids -> rental_add_ons.id
+crm_leads.customer_id -> customers.id; owner_staff_id -> staff_roles.id
+inventory_parts.supplier_id -> suppliers.id
+maintenance_work_orders.vehicle_id -> vehicles.id; assigned_staff_id -> staff_roles.id
+ecommerce_orders.customer_id -> customers.id; product_ids -> ecommerce_products.id
+transactions.booking_id -> bookings.id
+Use the supplied JSON as the canonical demo source, typed through TypeScript models. Avoid duplicating records in components.
+
+REQUIRED EXPERIENCES
+1. Public storefront: cinematic home page, category discovery, searchable/filterable catalogue, vehicle detail, specs, dates, pickup/return hubs, itemized quote, add-ons, booking request, demo confirmation, and customer booking history.
+2. Eight filterable categories: Sedan, SUV, Hatchback, Coupe, Convertible, Supercar, Electric, Luxury MPV.
+3. CRM: lead pipeline, stage/source filters, lead details, next actions, customer segments, campaigns, conversion indicators.
+4. Analytics: revenue, bookings, fleet utilization, active rentals, average booking value, sessions, conversion, leads, date filters and meaningful charts derived from metrics.
+5. Fleet and operations: fleet list, status/hub filters, bookings, maintenance queue, assigned staff, cost and status updates.
+6. Inventory: SKU, stock, reorder threshold, supplier, cost, low-stock filter, stock adjustment and supplier views.
+7. Ecommerce: products, filters, details, cart, quantities, checkout summary, order history and management.
+8. Staff/roles: show example roles and permissions; explain that real authorization requires a secure backend.
+
+NAVIGATION
+Do not repeat one navbar across all sections. Storefront gets an editorial automotive header; CRM gets lead-focused workspace navigation; analytics gets dashboard navigation and date controls; fleet/operations gets task-oriented navigation; ecommerce gets its own store navigation. Keep shared design tokens but adapt layout and information density.
+
+TECHNICAL TARGET
+Prefer Next.js 15, React 19, TypeScript, Tailwind CSS v4 when compatible with the existing repository. Inspect package.json, routes, components, scripts, and installed packages before edits. Reuse working code; do not perform unnecessary upgrades. Use existing chart libraries where possible.
+
+QUALITY
+Mobile-first layouts, accessible names and focus states, keyboard usability, sufficient contrast, reduced-motion support, optimized images, useful alt text, consistent SGD/date formatting, validation, loading/empty/error states, meaningful interactions, no dead buttons, and no horizontal overflow. Tables should have responsive treatment. Metrics should be calculated from the dataset, not arbitrary hard-coded values.
+
+DEMO / PRODUCTION LIMITS
+Every record, rate, booking, customer, transaction, product, and metric is fictional demo data. Availability is not live. Policies concerning driver eligibility, insurance, deposits, cancellations, privacy, tax, and cross-border travel require Singapore-specific review. Do not accept real payments or claim live integration. Production requires server-side booking validation, concurrency-safe reservations, authentication, authorization, audit logs, payment provider integration, privacy/security review, monitoring, and backups.
+
+SUGGESTED BUILD ORDER
+Inspect repository and data; define types/helpers; build design tokens and original WOLF identity; build storefront/catalogue/quote flow; booking demo flow; CRM; analytics; fleet/maintenance/inventory; ecommerce; test routes and responsive behavior; report actual test/build results and limitations.
+
+ACCEPTANCE
+Brand/tagline consistent; original wolf mark; all 8 categories present; all major workspaces usable; JSON relationships resolve; quote totals update with dates/vehicle/add-ons; CRM and inventory actions work in demo mode; analytics derive from data; each workspace has distinct navigation; demo limitations are clear; build/tests are honestly reported.
